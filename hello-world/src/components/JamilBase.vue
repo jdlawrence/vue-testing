@@ -5,10 +5,6 @@
       class="JamilBase__turtles"
       src="./Teenage-mutant-ninja-turtles.jpg"
     >
-    <img
-      class="JamilBase__mario"
-      src="./mario.svg"
-    >
     <div class="JamilBase__dummy-div"></div>
   </div>
 </template>
@@ -31,10 +27,11 @@ export default {
   }
 
   &__dummy-div {
-    background-color: red;
+    // background-color: red;
     height: 150px;
-    width: 150px;
-    background: url(".")
+    width: 700px;
+    // background: url("./bokeh.jpg") repeat center;
+    background: url("./mario.svg") repeat center;
   }
 }
 </style>
